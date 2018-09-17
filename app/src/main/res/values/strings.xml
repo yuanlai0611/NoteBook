@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NoteBook++</string>
+
+    <!--editActivity-->
+    <string name="title_hint">标题</string>
+    <string name="content_hint">内容</string>
+</resources>

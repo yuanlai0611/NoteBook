@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--editActivity-->
+    <dimen name="titleTextSize">17sp</dimen>
+    <dimen name="titlePadding">16dp</dimen>
+    <dimen name="dividerHeight">0.3dp</dimen>
+    <dimen name="contentMinHeight">200dp</dimen>
+    <dimen name="contentTextSize">16sp</dimen>
+    <dimen name="contentPadding">16dp</dimen>
+</resources>

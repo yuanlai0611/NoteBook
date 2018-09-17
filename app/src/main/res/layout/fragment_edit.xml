@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorEditBackground"
+            android:textSize="@dimen/titleTextSize"
+            android:padding="@dimen/titlePadding"
+            android:singleLine="true"
+            android:hint="@string/title_hint"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dividerHeight"
+            android:background="@color/colorDivider"/>
+
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorEditBackground"
+            android:minHeight="@dimen/contentMinHeight"
+            android:textSize="@dimen/contentTextSize"
+            android:hint="@string/content_hint"
+            android:padding="@dimen/contentPadding"
+            android:inputType="textMultiLine|textLongMessage"
+            android:gravity="top"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
